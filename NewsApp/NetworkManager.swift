@@ -3,7 +3,7 @@ import Foundation
 final class NetworkManager{
     
     static let shared = NetworkManager()
-    private let urlNews = "https://newsapi.org/v2/everything?domains=wsj.com&apiKey=baaecdd4271f4e2a8b97bf2e21aeba62"
+    private let urlNews = "https://newsapi.org/v2/everything?q=tesla&from=2024-10-24&sortBy=publishedAt&apiKey=baaecdd4271f4e2a8b97bf2e21aeba62"
     private let decoder = JSONDecoder()
 
     private init() {
