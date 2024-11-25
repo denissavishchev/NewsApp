@@ -1,13 +1,13 @@
 //
-//  TopArticleView.swift
+//  BottomArticleView.swift
 //  NewsApp
 //
-//  Created by Devis on 24/11/2024.
+//  Created by Devis on 25/11/2024.
 //
 
 import SwiftUI
 
-struct TopArticleView: View {
+struct BottomArticleView: View {
     
     let article: Article
     
@@ -19,16 +19,15 @@ struct TopArticleView: View {
                         image
                             .resizable()
                             .scaledToFill()
-                            .frame(height: 150)
+                            .frame(width: 120, height: 120)
                             .cornerRadius(10)
                     }else{
                         ZStack{
                             Rectangle()
-                                .frame(height: 150)
+                                .frame(width: 120, height: 120)
                                 .foregroundStyle(.secondary)
                                 .opacity(0.3)
                                 .cornerRadius(10)
-                            
                             Image(systemName: "photo")
                                 .resizable()
                                 .foregroundStyle(.secondary)
@@ -45,9 +44,8 @@ struct TopArticleView: View {
                 Text(article.publishedAt.convertDate())
                     .descriptionFont()
             }
-            .frame(maxWidth: .infinity, alignment: .leading)
         }
-        .frame(width: 260, height: 260)
+        .frame(width: 120, height: 240)
         .padding(10)
         .background(.background)
         .cornerRadius(10)

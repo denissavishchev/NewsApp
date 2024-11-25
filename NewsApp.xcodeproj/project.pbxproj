@@ -17,6 +17,8 @@
 		F2F500C12CF3243200492BAA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500C02CF3243200492BAA /* ViewModel.swift */; };
 		F2F500C32CF3A84800492BAA /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500C22CF3A84800492BAA /* Extentions.swift */; };
 		F2F500C52CF3AC2900492BAA /* TopArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500C42CF3AC2900492BAA /* TopArticleView.swift */; };
+		F2F500CB2CF50D6700492BAA /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500CA2CF50D6700492BAA /* URLConstants.swift */; };
+		F2F500CD2CF50FA900492BAA /* BottomArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500CC2CF50FA900492BAA /* BottomArticleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		F2F500C02CF3243200492BAA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		F2F500C22CF3A84800492BAA /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		F2F500C42CF3AC2900492BAA /* TopArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopArticleView.swift; sourceTree = "<group>"; };
+		F2F500CA2CF50D6700492BAA /* URLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
+		F2F500CC2CF50FA900492BAA /* BottomArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomArticleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				F2F500AC2CF1F7A500492BAA /* NewsApp.swift */,
-				F2F500AE2CF1F7A500492BAA /* HomeView.swift */,
-				F2F500C42CF3AC2900492BAA /* TopArticleView.swift */,
-				F2F500C02CF3243200492BAA /* ViewModel.swift */,
-				F2F500C22CF3A84800492BAA /* Extentions.swift */,
-				F2F500BA2CF21D8B00492BAA /* NetworkManager.swift */,
-				F2F500BC2CF232F000492BAA /* Model.swift */,
-				F2F500BE2CF2620900492BAA /* NetworkError.swift */,
+				F2F500C82CF5066C00492BAA /* View */,
+				F2F500C72CF5065800492BAA /* ViewModel */,
+				F2F500C62CF5064900492BAA /* Model */,
+				F2F500C92CF506A100492BAA /* Helper */,
 				F2F500B02CF1F7A700492BAA /* Assets.xcassets */,
 				F2F500B22CF1F7A700492BAA /* Preview Content */,
 			);
@@ -83,6 +84,43 @@
 				F2F500B32CF1F7A700492BAA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2F500C62CF5064900492BAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2F500BC2CF232F000492BAA /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2F500C72CF5065800492BAA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F2F500C02CF3243200492BAA /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F2F500C82CF5066C00492BAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2F500AE2CF1F7A500492BAA /* HomeView.swift */,
+				F2F500C42CF3AC2900492BAA /* TopArticleView.swift */,
+				F2F500CC2CF50FA900492BAA /* BottomArticleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2F500C92CF506A100492BAA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F2F500BE2CF2620900492BAA /* NetworkError.swift */,
+				F2F500C22CF3A84800492BAA /* Extentions.swift */,
+				F2F500BA2CF21D8B00492BAA /* NetworkManager.swift */,
+				F2F500CA2CF50D6700492BAA /* URLConstants.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,8 +197,10 @@
 				F2F500C52CF3AC2900492BAA /* TopArticleView.swift in Sources */,
 				F2F500AF2CF1F7A500492BAA /* HomeView.swift in Sources */,
 				F2F500AD2CF1F7A500492BAA /* NewsApp.swift in Sources */,
+				F2F500CD2CF50FA900492BAA /* BottomArticleView.swift in Sources */,
 				F2F500BD2CF232F000492BAA /* Model.swift in Sources */,
 				F2F500C12CF3243200492BAA /* ViewModel.swift in Sources */,
+				F2F500CB2CF50D6700492BAA /* URLConstants.swift in Sources */,
 				F2F500BF2CF2620900492BAA /* NetworkError.swift in Sources */,
 				F2F500C32CF3A84800492BAA /* Extentions.swift in Sources */,
 			);
