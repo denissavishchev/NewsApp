@@ -19,6 +19,8 @@
 		F2F500C52CF3AC2900492BAA /* TopArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500C42CF3AC2900492BAA /* TopArticleView.swift */; };
 		F2F500CB2CF50D6700492BAA /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500CA2CF50D6700492BAA /* URLConstants.swift */; };
 		F2F500CD2CF50FA900492BAA /* BottomArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500CC2CF50FA900492BAA /* BottomArticleView.swift */; };
+		F2F500CF2CF64C0C00492BAA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500CE2CF64C0C00492BAA /* DetailView.swift */; };
+		F2F500D12CF650CD00492BAA /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500D02CF650CD00492BAA /* SizeConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		F2F500C42CF3AC2900492BAA /* TopArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopArticleView.swift; sourceTree = "<group>"; };
 		F2F500CA2CF50D6700492BAA /* URLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
 		F2F500CC2CF50FA900492BAA /* BottomArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomArticleView.swift; sourceTree = "<group>"; };
+		F2F500CE2CF64C0C00492BAA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F2F500D02CF650CD00492BAA /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 				F2F500AE2CF1F7A500492BAA /* HomeView.swift */,
 				F2F500C42CF3AC2900492BAA /* TopArticleView.swift */,
 				F2F500CC2CF50FA900492BAA /* BottomArticleView.swift */,
+				F2F500CE2CF64C0C00492BAA /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 			children = (
 				F2F500BE2CF2620900492BAA /* NetworkError.swift */,
 				F2F500C22CF3A84800492BAA /* Extentions.swift */,
+				F2F500D02CF650CD00492BAA /* SizeConstants.swift */,
 				F2F500BA2CF21D8B00492BAA /* NetworkManager.swift */,
 				F2F500CA2CF50D6700492BAA /* URLConstants.swift */,
 			);
@@ -195,9 +201,11 @@
 			files = (
 				F2F500BB2CF21D8B00492BAA /* NetworkManager.swift in Sources */,
 				F2F500C52CF3AC2900492BAA /* TopArticleView.swift in Sources */,
+				F2F500D12CF650CD00492BAA /* SizeConstants.swift in Sources */,
 				F2F500AF2CF1F7A500492BAA /* HomeView.swift in Sources */,
 				F2F500AD2CF1F7A500492BAA /* NewsApp.swift in Sources */,
 				F2F500CD2CF50FA900492BAA /* BottomArticleView.swift in Sources */,
+				F2F500CF2CF64C0C00492BAA /* DetailView.swift in Sources */,
 				F2F500BD2CF232F000492BAA /* Model.swift in Sources */,
 				F2F500C12CF3243200492BAA /* ViewModel.swift in Sources */,
 				F2F500CB2CF50D6700492BAA /* URLConstants.swift in Sources */,
