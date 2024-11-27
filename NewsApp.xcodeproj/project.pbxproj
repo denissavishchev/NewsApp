@@ -21,6 +21,7 @@
 		F2F500CD2CF50FA900492BAA /* BottomArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500CC2CF50FA900492BAA /* BottomArticleView.swift */; };
 		F2F500CF2CF64C0C00492BAA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500CE2CF64C0C00492BAA /* DetailView.swift */; };
 		F2F500D12CF650CD00492BAA /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500D02CF650CD00492BAA /* SizeConstants.swift */; };
+		F2F500D32CF7A7B100492BAA /* BackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500D22CF7A7B100492BAA /* BackButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		F2F500CC2CF50FA900492BAA /* BottomArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomArticleView.swift; sourceTree = "<group>"; };
 		F2F500CE2CF64C0C00492BAA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		F2F500D02CF650CD00492BAA /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
+		F2F500D22CF7A7B100492BAA /* BackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				F2F500AE2CF1F7A500492BAA /* HomeView.swift */,
+				F2F500D22CF7A7B100492BAA /* BackButtonView.swift */,
 				F2F500C42CF3AC2900492BAA /* TopArticleView.swift */,
 				F2F500CC2CF50FA900492BAA /* BottomArticleView.swift */,
 				F2F500CE2CF64C0C00492BAA /* DetailView.swift */,
@@ -201,6 +204,7 @@
 			files = (
 				F2F500BB2CF21D8B00492BAA /* NetworkManager.swift in Sources */,
 				F2F500C52CF3AC2900492BAA /* TopArticleView.swift in Sources */,
+				F2F500D32CF7A7B100492BAA /* BackButtonView.swift in Sources */,
 				F2F500D12CF650CD00492BAA /* SizeConstants.swift in Sources */,
 				F2F500AF2CF1F7A500492BAA /* HomeView.swift in Sources */,
 				F2F500AD2CF1F7A500492BAA /* NewsApp.swift in Sources */,
